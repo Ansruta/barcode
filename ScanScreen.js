@@ -66,7 +66,7 @@ export default class ScanScreen extends React.Component {
           <View style={styles.container}>
              <View>
               <Image
-                source={require("../assets/camera.jpg")}
+                source={require("./camera.jpg")}
                 style={{width:200, height: 200}}/>
               <Text style={{textAlign: 'center', fontSize: 30}}>Bar Code Scanner</Text>
             </View>
